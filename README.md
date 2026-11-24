@@ -1,2 +1,2 @@
 # odin-restaurant-page
-Odin Javascript Project: Restaurant Page
+The Odin Project - JavaScript Course, Restaurant Page Project
