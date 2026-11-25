@@ -1,0 +1,27 @@
+{
+  "name": "odin-restaurant-page",
+  "version": "1.0.0",
+  "description": "The Odin Project - JavaScript Course, Restaurant Page Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksco23/odin-restaurant-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ksco23/odin-restaurant-page/issues"
+  },
+  "homepage": "https://github.com/ksco23/odin-restaurant-page#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.8",
+    "webpack": "^5.113.0",
+    "webpack-cli": "^7.3.1",
+    "webpack-dev-server": "^6.1.0"
+  }
+}
