@@ -1,4 +1,4 @@
-export function initialPageLoad() {
+export function home() {
     const contentContainer = document.getElementById('content');
 
     const homeDiv = document.createElement('div');
