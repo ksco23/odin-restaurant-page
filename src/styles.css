@@ -1,0 +1,7 @@
+div[data-tab-section] {
+    display: none;
+}
+
+div[data-tab-section].active {
+    display: block;
+}
