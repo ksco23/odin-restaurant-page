@@ -1,16 +1,12 @@
+import { createElWithHtml, createElWithText } from "./utils.js";
+
 export function home() {
-    // const contentContainer = document.getElementById('content');
 
-    // const homeDiv = document.createElement('div');
-    // homeDiv.dataset.tabSection = 'home';
+    const contentArr = [];
 
-    const h1 = document.createElement('h1');
-    h1.textContent = 'My Fancy Restaurant';
+    contentArr.push(createElWithHtml('h2', 'Welcome to the <i>Overpriced Cafe</i>!'));
 
-    const para = document.createElement('p');
-    para.textContent = 'Welcome to My Fancy Restaurant! We are happy you visited us, but we have no food at the moment.';
+    contentArr.push(createElWithText('p', 'We offer a superior price experience to go along with our exceptionally average cuisine!'));
 
-    //homeDiv.append(h1, para);
-    //contentContainer.append(homeDiv);
-    return ([h1, para]);
+    return (contentArr);
 }
